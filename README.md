@@ -1,0 +1,1 @@
+# android-emulator-no-sound
