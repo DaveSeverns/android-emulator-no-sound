@@ -1,0 +1,2 @@
+#!/bin/bash    
+~/Library/Android/sdk/emulator/emulator_original $@ -qemu -no-audio
