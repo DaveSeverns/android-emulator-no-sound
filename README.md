@@ -1,8 +1,15 @@
 # android-emulator-no-sound
 
 To run the AVD emulator with no sound...
-Locate the emulator file: `$ find ~ d -name emulator 2> /dev/null` you will be looking for the 
+
+1. Locate the emulator file: `$ find ~ d -name emulator 2> /dev/null` you will be looking for the 
 path which contains `../../Android/sdk/emulator/emulator`
 
-Go there `$ cd <your-path>/Android/sdk/emulator` and find the file named `emulator` and rename it
+2. Go to that location `$ cd <your-path>/Android/sdk/emulator` and find the file named `emulator` and rename it
 `$ mv ./emulator ./emulator_original`
+
+3. You can edit your `.zshrc` or `.bashrc` file to add an environment variable `export EMULATOR=<path-to-your-emulator>`
+      see <img width="413" alt="image" src="https://user-images.githubusercontent.com/15655675/181522915-5470ce6e-afeb-4bf6-8697-976eb9af5338.png">
+      and then clone the file in this repo and move the `emulator` "script" to the /emulator director and you are good to go.
+     
+
